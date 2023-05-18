@@ -15,5 +15,5 @@ jobs:
       with:
         username: ${{ secrets.DOCKER_LOGIN }}
         password: ${{ secrets.DOCKER_PAT }}
-        repository: overtort/lab45
+        repository: ia02chernikovvlad/lab4
         tags: latest, ${{ github.run_number }}
